@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ campo.innerHTML = texto;
 }
 function mensagemInicial(){
    exibirTextonatela ("h1","Jogo do número secreto");
-   exibirTextonatela ("p","Escolha um Número entre 1 e 10");
+   exibirTextonatela ("p","Escolha um Número entre 1 e 100");
 }
 mensagemInicial();
 
