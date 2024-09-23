@@ -10,7 +10,7 @@ campo.innerHTML = texto;
 
 }
 function mensagemInicial(){
-   exibirTextonatela ("h1","Jogo do número secreto");
+   exibirTextonatela ("h1","Jogo do número alternativo");
    exibirTextonatela ("p","Escolha um Número entre 1 e 100");
 }
 mensagemInicial();
